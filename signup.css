@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, rgba(251, 246, 63, 1) 0%, rgba(255, 249, 250, 1) 100%);
+    font-family: 'Fruktur', cursive;
+}
+body::-webkit-scrollbar{width:0;}
+::placeholder{color:#ffdc00;}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:700px;
+    height: 100vh;
+}
+#container img{
+    width:100px;
+    height:100px;
+    margin-top:20px;
+}
+
+.form-box{
+    margin: 5px 10px;
+    width: 100%;
+    height: 50px;
+    margin: 15px 0;
+    border:2px solid #ffdc00;
+}
+#sign-box{
+    display:flex;
+    
+    padding:35px;
+    
+}
+#sign-box .form-item
+{
+    float:left;
+    width:50%;
+}
+.form-item input[type="text"],input[type="password"]
+{
+    margin:10px 2px;
+    width:300px;
+}
+label
+{
+
+    color: #FFDC00;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.form-item input[type="text"],input[type="password"]
+{
+
+    margin: 5px 10px;
+    width: 100%;
+    height: 50px;
+    margin: 15px 2px;
+    border:2px solid #ffdc00;
+
+}
+.form-item input:focus
+{
+
+    outline-color: aliceblue;
+
+}
+.custom-select select
+{
+    width:100%;
+    background-color: #ffdc00;
+    height: 50px;
+    border:1px solid #ffdc00;
+    color:aliceblue;
+    font-size:15px;
+    
+}
+.custom-select select:focus{outline-color:aliceblue;}
+input[type="submit"]
+{
+    
+    outline-style: none;
+    width:100%;
+    padding:10px;
+    /*background-color: rgba(251, 246, 63, 1);*/
+    background: linear-gradient(135deg, rgba(251, 246, 63, 0.2), rgba(255, 220, 0, 0.2));
+    border:2px solid #ffdc00;
+    color:#ffdc00;
+    font-size:20px;
+    font-weight: 400;
+    margin-top:5px;
+    transition: 0.2s all ease;
+}
+input[type="submit"]:hover
+{
+    background-color:#ffdc00;
+    background: linear-gradient(135deg, rgba(251, 246, 63, 1), rgba(255, 220, 0, 1));
+    color:#fff;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+@media screen and (max-width:800px) {
+    #sign-box .form-item {
+
+        width: 100%;
+
+    }
+
+    .form-item input[type="text"],
+    input[type="password"] {
+
+        height: 40px;
+
+    }
+
+    #container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 500px;
+
+    }
+
+    #container img {
+
+        margin-top: 50px;
+    }
+
+    .custom-select select {
+       
+        height: 40px;
+        
+
+    }
+
+    
+
+    
+
+}

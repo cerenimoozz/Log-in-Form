@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, rgba(251, 246, 63, 1) 0%, rgba(255, 249, 250, 1) 100%);
+    font-family: 'Fruktur', cursive;
+}
+body::-webkit-scrollbar{width:0;}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+    height: 80vh;
+    padding:60px 15px;
+
+}
+
+#login-box {
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+#login-box img {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.form-item {
+    margin: 5px 10px;
+    width: 300px;
+    height: 50px;
+    margin: 15px 0;
+    border:2px solid #ffdc00;
+}
+.form-item:focus {
+    outline-color: aliceblue;
+}
+
+label {
+    color: #FFDC00;
+    font-size: 31px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+::placeholder{
+    color:#ffdc00;
+}
+input[type="submit"]
+{
+    
+    outline-style: none;
+    width:300px;
+    padding:10px;
+    /*background-color: rgba(251, 246, 63, 1);*/
+    background: linear-gradient(135deg, rgba(251, 246, 63, 0.2), rgba(255, 220, 0, 0.2));
+    border:2px solid #ffdc00;
+    color:#ffdc00;
+    font-size:20px;
+    font-weight: 400;
+    margin-top:5px;
+    transition: 0.2s all ease;
+}
+input[type="submit"]:hover
+{
+    background-color:#ffdc00;
+    background: linear-gradient(135deg, rgba(251, 246, 63, 1), rgba(255, 220, 0, 1));
+    color:#fff;
+    
+}
+.link{
+    display: inline-block;
+    margin:30px;
+    font-size:13px;
+    color:saddlebrown;
+}
+.link a{
+    text-decoration: none;
+    font-size:15px;
+    color:saddlebrown;
+}
